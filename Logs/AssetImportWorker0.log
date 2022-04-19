@@ -1,0 +1,441 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Duck_Duck_Moose
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3456
+Successfully changed project path to: C:/Duck_Duck_Moose
+C:/Duck_Duck_Moose
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 72.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Duck_Duck_Moose/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 965M (ID=0x1427)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003385 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005204 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Duck_Duck_Moose\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1545ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 6.625400 ms (FindLiveObjects: 0.496100 ms CreateObjectMapping: 0.211400 ms MarkObjects: 5.746000 ms  DeleteObjects: 0.170400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Meshes/Overworld
+  artifactKey: Guid(ad5fbfac435d2e645b59b579f76ec1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld using Guid(ad5fbfac435d2e645b59b579f76ec1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc3fc6599501c4caad12edde0072429') in 0.013905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.566153 seconds.
+  path: Assets/Meshes/Overworld/pineTree1.fbx
+  artifactKey: Guid(34036b1bd7b094f4abd0014f5854d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/pineTree1.fbx using Guid(34036b1bd7b094f4abd0014f5854d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df744a65af0c97531f7ec435d437cd06') in 0.515914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 237.874486 seconds.
+  path: Assets/Meshes/Overworld/pineTree1
+  artifactKey: Guid(dbb41ca83ad4aac4aa29c02ed10c914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/pineTree1 using Guid(dbb41ca83ad4aac4aa29c02ed10c914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d46d69357302d4c5e839d0bd4d22d') in 0.006563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.836459 seconds.
+  path: Assets/Meshes/Overworld/diffuse_pineTree1Leaves.png
+  artifactKey: Guid(09a37c8a7e5002d4d909937c81dc95fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/diffuse_pineTree1Leaves.png using Guid(09a37c8a7e5002d4d909937c81dc95fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8e9820e3c250d5db6f81ea52aca3b4') in 0.170089 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Duck_Duck_Moose\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.9 MB.
+System memory in use after: 135.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3468.
+Total: 3.774000 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.176100 ms MarkObjects: 3.262000 ms  DeleteObjects: 0.048800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73.361414 seconds.
+  path: Assets/Meshes/Overworld/pineTree1/pineTree1.fbx
+  artifactKey: Guid(34036b1bd7b094f4abd0014f5854d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/pineTree1/pineTree1.fbx using Guid(34036b1bd7b094f4abd0014f5854d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bba0f64aefb304b1debc59cb97a743') in 0.295774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.377040 seconds.
+  path: Assets/Meshes/Overworld/pineTree1/pineTree1.fbx
+  artifactKey: Guid(34036b1bd7b094f4abd0014f5854d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/pineTree1/pineTree1.fbx using Guid(34036b1bd7b094f4abd0014f5854d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bbde66553a820fa615399411927180') in 0.120043 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005641 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Duck_Duck_Moose\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1434ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1176ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3507.
+Total: 4.871100 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.174000 ms MarkObjects: 4.370400 ms  DeleteObjects: 0.048400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9888.118616 seconds.
+  path: Assets/Meshes/Overworld/mushroom1
+  artifactKey: Guid(cec9b06bbe2304344883483eef71ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/mushroom1 using Guid(cec9b06bbe2304344883483eef71ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bd7c19fc4337e288a5f468625e00f3') in 0.011444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.084462 seconds.
+  path: Assets/Meshes/Overworld/mushroom1/roughness2_mushroom1.png
+  artifactKey: Guid(34662f080aea70c45957a65f2a3b91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/mushroom1/roughness2_mushroom1.png using Guid(34662f080aea70c45957a65f2a3b91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fa7de324a1130ddf0535fa8ce1bc8a') in 0.116405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.051772 seconds.
+  path: Assets/Meshes/Overworld/mushroom1/mushroom1.obj
+  artifactKey: Guid(ec7f71ab1dbfbc04db9ce0cb9717c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/mushroom1/mushroom1.obj using Guid(ec7f71ab1dbfbc04db9ce0cb9717c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f207d185ef84ad400abe0afa6dcc35b') in 0.305666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.601013 seconds.
+  path: Assets/Meshes/Overworld/mushroom1/emissive_mushroom1.png
+  artifactKey: Guid(b6835695c7d498f41af0450cc214e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/mushroom1/emissive_mushroom1.png using Guid(b6835695c7d498f41af0450cc214e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a7a89d28ae88e41ddcef5c4825a1fa') in 0.067292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.558111 seconds.
+  path: Assets/Meshes/Overworld/mushroom1/diffuse_mushroom1.png
+  artifactKey: Guid(49997567baff2824baecff82287efdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/mushroom1/diffuse_mushroom1.png using Guid(49997567baff2824baecff82287efdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedf5c84b4d88a37494d710eb4b4984e') in 0.085691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.097658 seconds.
+  path: Assets/Meshes/Overworld/flower1
+  artifactKey: Guid(f8db489319ad67b4a889c1d1165811e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1 using Guid(f8db489319ad67b4a889c1d1165811e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf8d04d5f1437f6f3d088b3f9940097') in 0.007985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.685561 seconds.
+  path: Assets/Meshes/Overworld/flower1/Flower Patch.fbx
+  artifactKey: Guid(54148cd85bd40cc46bd124e332db15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/Flower Patch.fbx using Guid(54148cd85bd40cc46bd124e332db15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b520e4b43fb1026556d55dba68da1100') in 0.139663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.995307 seconds.
+  path: Assets/Meshes/Overworld/flower1/Flower Patch.fbx
+  artifactKey: Guid(54148cd85bd40cc46bd124e332db15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/Flower Patch.fbx using Guid(54148cd85bd40cc46bd124e332db15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c111b24d625ced617ca68e1b30bc04a0') in 0.087191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.791353 seconds.
+  path: Assets/Meshes/Overworld/flower1/petal34.png
+  artifactKey: Guid(e3ed8621eae832d4c854b2a16ef8b3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/petal34.png using Guid(e3ed8621eae832d4c854b2a16ef8b3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8767dd9cc11080879ea306d20da8ad0') in 0.056512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.148912 seconds.
+  path: Assets/Meshes/Overworld/flower1/grass4.png
+  artifactKey: Guid(eaf6b86d8e842c0428f848a975b98ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/grass4.png using Guid(eaf6b86d8e842c0428f848a975b98ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141d7984bc1bc165c4df4fe042a324c5') in 0.057900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.634193 seconds.
+  path: Assets/Meshes/Overworld/flower1/grass109.png
+  artifactKey: Guid(e57a541ef1df94146aaf6b2245087dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/grass109.png using Guid(e57a541ef1df94146aaf6b2245087dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31ae847b65dbfbe0a02e594165b50ef') in 0.044608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575577 seconds.
+  path: Assets/Meshes/Overworld/flower1/grass110.png
+  artifactKey: Guid(6b4999c7d34402244b35de45cbbc5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/grass110.png using Guid(6b4999c7d34402244b35de45cbbc5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b342e654a9e6d8578e08d195de794f') in 0.026156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.292006 seconds.
+  path: Assets/Meshes/Overworld/flower1/petal25.png
+  artifactKey: Guid(9259518cb236b2c4692276ed7f2761b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/petal25.png using Guid(9259518cb236b2c4692276ed7f2761b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d0a869cdedc1d2900e7cf207f86514') in 0.037648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.045428 seconds.
+  path: Assets/Meshes/Overworld/flower1/petal26.png
+  artifactKey: Guid(4dd1afa32cd6d81428cce8b889ff03e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/petal26.png using Guid(4dd1afa32cd6d81428cce8b889ff03e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de26f5e677a231b59adfb22c15f9094') in 0.055707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.170948 seconds.
+  path: Assets/Meshes/Overworld/flower1/petal17.png
+  artifactKey: Guid(64a1f333e58e48045b5f017970cfcea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Overworld/flower1/petal17.png using Guid(64a1f333e58e48045b5f017970cfcea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484b59c50e45c66dd1b0094e280e604d') in 0.049454 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Duck_Duck_Moose\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1389ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.3 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3547.
+Total: 6.507100 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.324400 ms MarkObjects: 5.769100 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
