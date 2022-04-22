@@ -15,7 +15,6 @@ public class boardMarker1 : MonoBehaviour
     public GameObject reference_boardMarker1;
 
     public Vector3 duckPosition;
-    public GameObject boardMarker1_position;
 
     private MeshRenderer boardMarkerColor;
 
