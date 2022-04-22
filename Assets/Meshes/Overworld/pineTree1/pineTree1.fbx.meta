@@ -3,17 +3,7 @@ guid: 34036b1bd7b094f4abd0014f5854d4b4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leavs
-    second: {fileID: 2100000, guid: c1d2e80bc01ceb54a8741a47c6c2d482, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Trank
-    second: {fileID: 2100000, guid: ac8e8d024ddac0c47846c17dc50bdb3a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

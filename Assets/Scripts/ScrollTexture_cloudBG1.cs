@@ -23,7 +23,6 @@ public class ScrollTexture_cloudBG1 : MonoBehaviour
     void Update()
     {
         transform.Rotate(Vector3.up * Time.deltaTime);
-        Debug.Log("Set");
         
     }
 }
