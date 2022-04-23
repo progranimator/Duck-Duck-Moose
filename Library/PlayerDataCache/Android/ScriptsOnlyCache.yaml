@@ -14,6 +14,8 @@ ScriptsOnlyBuild:
     - boardMarker4
     - boardMarker5
     - setCameraActive_boardTag1
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -51,13 +53,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -249,8 +244,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1610}
     - Class: 114
       Script: {instanceID: 1612}
     - Class: 114
@@ -502,7 +495,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 02916ae258abb2d47faa1e3456397e7c
+      Hash: 6ad64450a716f6d8974c988310c06d28
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RotateLevelRight
@@ -586,7 +579,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerContainer
   - hash:
       serializedVersion: 2
-      Hash: f03dc6b799f546791b09b6c43e2afcb7
+      Hash: 6de01583f5a8b61bb3978a8b257084d3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RotateLevelLeft
@@ -664,7 +657,7 @@ ScriptsOnlyBuild:
     className: ScrollTexture_Waterfall
   - hash:
       serializedVersion: 2
-      Hash: fc5d09dc79d9fa8cba692fc3b280b9c0
+      Hash: 96787ded092bdc797f336cb5a3f9add4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker2
@@ -802,7 +795,7 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineEditorResources
   - hash:
       serializedVersion: 2
-      Hash: e54e8fa346642c63336f5aa1517864e3
+      Hash: fbed974483df859712dde34088bbce13
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker4
@@ -1156,7 +1149,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: a60d860d7a042e8d11fa23bd7d0c49c0
+      Hash: 2daf97488a6f27d992c77d709e1b2a39
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker3
@@ -1210,7 +1203,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFoldout
   - hash:
       serializedVersion: 2
-      Hash: 8b6acdd0912d4406e2e16f94a95bcdda
+      Hash: 1c5a2ad065b2b860387f133efde2c31e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker5
@@ -1222,7 +1215,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 4d75d566d37f3635130e0b0059f66f35
+      Hash: 9d07c0385bc36b4713da02762e3eb711
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker1

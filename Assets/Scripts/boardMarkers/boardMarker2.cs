@@ -15,6 +15,9 @@ public class boardMarker2 : MonoBehaviour
     public GameObject reference_boardMarker2;
     public GameObject reference_boardMarker1Label;
     public GameObject reference_boardMarker2Label;
+    public GameObject reference_boardMarker3Label;
+    public GameObject reference_boardMarker4Label;
+    public GameObject reference_boardMarker5Label;
 
     public Vector3 duckPosition;
 
@@ -46,6 +49,10 @@ public class boardMarker2 : MonoBehaviour
 
             reference_boardMarker1Label.SetActive(false);
             reference_boardMarker2Label.SetActive(true);
+            reference_boardMarker3Label.SetActive(false);
+            reference_boardMarker4Label.SetActive(false);
+            reference_boardMarker5Label.SetActive(false);
+
 
             DuckModelReference.transform.position = reference_boardMarker2.transform.position;
         }

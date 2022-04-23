@@ -11,11 +11,14 @@ public class boardMarker3 : MonoBehaviour
     // --------------------------------->
 
     public GameObject DuckModelReference;
-    public GameObject boardMarker_top;
     public GameObject reference_boardMarker3;
+    public GameObject reference_boardMarker1Label;
+    public GameObject reference_boardMarker2Label;
+    public GameObject reference_boardMarker3Label;
+    public GameObject reference_boardMarker4Label;
+    public GameObject reference_boardMarker5Label;
 
     public Vector3 duckPosition;
-    public GameObject boardMarker3_position;
 
     private MeshRenderer boardMarkerColor;
 
@@ -26,27 +29,29 @@ public class boardMarker3 : MonoBehaviour
     public bool isHidden = false;
 
     // --------------------------------->
+
+    
+
+
     // --------------------------------->
+    // BUILT-IN FUNCTIONS
     // --------------------------------->
 
-
-    void Start()
-    {
-        boardMarkerColor = GetComponent<MeshRenderer>();
-
-    }
-
-    //  check if player can set visibility of boardMarker
-    void Update()
-    {
-        VisibilityCheck();
-    }
+    void Start() { boardMarkerColor = GetComponent<MeshRenderer>(); }
+    void Update() { VisibilityCheck(); }
 
     private void VisibilityCheck()
     {
         if (isPressed == true)
         {
             boardMarkerColor.material.color = Color.red;
+
+            reference_boardMarker1Label.SetActive(false);
+            reference_boardMarker2Label.SetActive(false);
+            reference_boardMarker3Label.SetActive(true);
+            reference_boardMarker4Label.SetActive(false);
+            reference_boardMarker5Label.SetActive(false);
+
             DuckModelReference.transform.position = reference_boardMarker3.transform.position;
         }
 
@@ -58,6 +63,17 @@ public class boardMarker3 : MonoBehaviour
 
     }
 
+    // ---------------------------------->
+
+
+
+
+    // ---------------------------------->
+    // ADDITIONAL FUNCTIONS
+    // ---------------------------------->
+    public void OnMouseUp()   { isPressed = false; }  
+    public void OnMouseDown() { isPressed = true; }
+    
     public void SetVisibility()
     {
         if (CanSetVisibility == true)
@@ -66,15 +82,7 @@ public class boardMarker3 : MonoBehaviour
         }
     }
 
-    public void OnMouseUp()
-    {
-        isPressed = false;
-    }
-
-    public void OnMouseDown()
-    {
-        isPressed = true;
-    }
+    // ----------------------------------->
 
 
 }

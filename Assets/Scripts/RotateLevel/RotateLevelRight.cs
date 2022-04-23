@@ -19,6 +19,9 @@ public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     public GameObject Overworld_Cube;
     public GameObject BoardMarkerLabel_TranquilTree;
     public GameObject BoardMarkerLabel_MushroomMeadows;
+    public GameObject BoardMarkerLabel_ExitToAutumn;
+    public GameObject BoardMarkerLabel_MorningGloryGardens;
+    public GameObject BoardMarkerLabel_ForeverFields;
 
     // --------------------------------->
 
@@ -48,6 +51,9 @@ public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHa
             Overworld_Cube.transform.Rotate(0.0f, 0.0f, 0.0f);
             BoardMarkerLabel_TranquilTree.transform.Rotate(0.0f, 0.0f, 0.0f);
             BoardMarkerLabel_MushroomMeadows.transform.Rotate(0.0f, 0.0f, 0.0f);
+            BoardMarkerLabel_ExitToAutumn.transform.Rotate(0.0f, 0.0f, 0.0f);
+            BoardMarkerLabel_MorningGloryGardens.transform.Rotate(0.0f, 0.0f, 0.0f);
+            BoardMarkerLabel_ForeverFields.transform.Rotate(0.0f, 0.0f, 0.0f);
         }
 
     }
@@ -67,7 +73,9 @@ public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHa
             Overworld_Cube.transform.Rotate(0.0f, 0.0f, RightRotationAmount);
             BoardMarkerLabel_TranquilTree.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
             BoardMarkerLabel_MushroomMeadows.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
-            
+            BoardMarkerLabel_ExitToAutumn.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
+            BoardMarkerLabel_MorningGloryGardens.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
+            BoardMarkerLabel_ForeverFields.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
         }
     }
 
