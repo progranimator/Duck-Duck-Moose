@@ -5,6 +5,10 @@ using UnityEngine.EventSystems;
 
 public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
+    
+    // --------------------------------->
+    // SET VARIABLES
+    // --------------------------------->
 
     public float RightRotationAmount;
     public float RightRotationAmount_Label;
@@ -13,9 +17,17 @@ public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     public bool canRotate = false;
 
     public GameObject Overworld_Cube;
-    public GameObject BoardMarkerLabels;
+    public GameObject BoardMarkerLabel_TranquilTree;
+    public GameObject BoardMarkerLabel_MushroomMeadows;
 
-    // Update is called once per frame
+    // --------------------------------->
+
+
+
+    // --------------------------------->
+    // BUILT-IN FUNCTIONS
+    // --------------------------------->
+
     void Update()
     {
         RotationCheck();
@@ -34,18 +46,27 @@ public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHa
         {
             canRotate = false;
             Overworld_Cube.transform.Rotate(0.0f, 0.0f, 0.0f);
-            BoardMarkerLabels.transform.Rotate(0.0f, 0.0f, 0.0f);
+            BoardMarkerLabel_TranquilTree.transform.Rotate(0.0f, 0.0f, 0.0f);
+            BoardMarkerLabel_MushroomMeadows.transform.Rotate(0.0f, 0.0f, 0.0f);
         }
 
     }
 
+    // ---------------------------------->
+
+
+
+    // ---------------------------------->
+    // ADDITIONAL FUNCTIONS
+    // ---------------------------------->
 
     public void RotateRight()
     {
         if (canRotate == true)
         {
             Overworld_Cube.transform.Rotate(0.0f, 0.0f, RightRotationAmount);
-            BoardMarkerLabels.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
+            BoardMarkerLabel_TranquilTree.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
+            BoardMarkerLabel_MushroomMeadows.transform.Rotate(0.0f, RightRotationAmountY_Label, RightRotationAmount_Label);
             
         }
     }
@@ -59,4 +80,10 @@ public class RotateLevelRight : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     {
         isPressed = true;
     }
+
+    // --------------------------------->
+
+
+
+    
 }

@@ -7,12 +7,13 @@ public class boardMarker1 : MonoBehaviour
 {
 
     // --------------------------------->
-    // set variables
+    // SET VARIABLES
     // --------------------------------->
 
     public GameObject DuckModelReference;
-    public GameObject boardMarker_top;
     public GameObject reference_boardMarker1;
+    public GameObject reference_boardMarker1Label;
+    public GameObject reference_boardMarker2Label;
 
     public Vector3 duckPosition;
 
@@ -25,27 +26,26 @@ public class boardMarker1 : MonoBehaviour
     public bool isHidden = false;
 
     // --------------------------------->
+
+    
+
+
     // --------------------------------->
+    // BUILT-IN FUNCTIONS
     // --------------------------------->
 
-
-    void Start()
-    {
-        boardMarkerColor = GetComponent<MeshRenderer>();
-
-    }
-
-    //  check if player can set visibility of boardMarker
-    void Update()
-    {
-        VisibilityCheck();
-    }
+    void Start() { boardMarkerColor = GetComponent<MeshRenderer>(); }    
+    void Update() { VisibilityCheck(); }
 
     private void VisibilityCheck()
     {
         if (isPressed == true)
         {
             boardMarkerColor.material.color = Color.red;
+            
+            reference_boardMarker1Label.SetActive(true);
+            reference_boardMarker2Label.SetActive(false);
+
             DuckModelReference.transform.position = reference_boardMarker1.transform.position;
         }
 
@@ -57,6 +57,18 @@ public class boardMarker1 : MonoBehaviour
 
     }
 
+    // ---------------------------------->
+
+
+
+
+    // ---------------------------------->
+    // ADDITIONAL FUNCTIONS
+    // ---------------------------------->
+    
+    public void OnMouseUp()   { isPressed = false; }
+    public void OnMouseDown() { isPressed = true; }
+    
     public void SetVisibility()
     {
         if (CanSetVisibility == true)
@@ -65,15 +77,9 @@ public class boardMarker1 : MonoBehaviour
         }
     }
 
-    public void OnMouseUp()
-    {
-        isPressed = false;
-    }
-
-    public void OnMouseDown()
-    {
-        isPressed = true;
-    }
+    // ----------------------------------->
+    
 
 
+    
 }

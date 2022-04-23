@@ -8,17 +8,16 @@ public class boardMarker2 : MonoBehaviour
 {
 
     // --------------------------------->
-    // set variables
+    // SET VARIABLES
     // --------------------------------->
 
     public GameObject DuckModelReference;
-    public GameObject boardMarker_top;
     public GameObject reference_boardMarker2;
-    public GameObject reference_ButtonWorldTag1;
+    public GameObject reference_boardMarker1Label;
+    public GameObject reference_boardMarker2Label;
 
     public Vector3 duckPosition;
-    public GameObject boardMarker1_position;
-    
+
     private MeshRenderer boardMarkerColor;
 
     public bool CanSetVisibility = false;
@@ -28,29 +27,27 @@ public class boardMarker2 : MonoBehaviour
     public bool isHidden = false;
 
     // --------------------------------->
-    // --------------------------------->
-    // --------------------------------->
+
     
 
-    void Start()
-    {
-        boardMarkerColor = GetComponent<MeshRenderer>();
 
-    }
+    // --------------------------------->
+    // BUILT-IN FUNCTIONS
+    // --------------------------------->
 
-    //  check if player can set visibility of boardMarker
-    void Update()
-    {
-        VisibilityCheck();
-    }
+    void Start() { boardMarkerColor = GetComponent<MeshRenderer>(); }
+    void Update() { VisibilityCheck(); }
 
     private void VisibilityCheck()
     {
         if (isPressed == true)
         {
             boardMarkerColor.material.color = Color.red;
+
+            reference_boardMarker1Label.SetActive(false);
+            reference_boardMarker2Label.SetActive(true);
+
             DuckModelReference.transform.position = reference_boardMarker2.transform.position;
-            reference_ButtonWorldTag1.GetComponent<Image>().enabled = true;
         }
 
         else if (isPressed == false)
@@ -61,6 +58,17 @@ public class boardMarker2 : MonoBehaviour
 
     }
 
+    // ---------------------------------->
+
+
+
+
+    // ---------------------------------->
+    // ADDITIONAL FUNCTIONS
+    // ---------------------------------->
+    public void OnMouseUp()   { isPressed = false; }  
+    public void OnMouseDown() { isPressed = true; }
+    
     public void SetVisibility()
     {
         if (CanSetVisibility == true)
@@ -69,15 +77,9 @@ public class boardMarker2 : MonoBehaviour
         }
     }
 
-    public void OnMouseUp()
-    {
-        isPressed = false;
-    }
+    // ----------------------------------->
+    
 
-    public void OnMouseDown()
-    {
-        isPressed = true;
-    }
 
    
 }
