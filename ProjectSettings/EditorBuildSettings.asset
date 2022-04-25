@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/overworld_season1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MushroomMeadows.unity
+    guid: b0c1c6fcad2fdb542b19bcc0b94d2f7d
   m_configObjects: {}

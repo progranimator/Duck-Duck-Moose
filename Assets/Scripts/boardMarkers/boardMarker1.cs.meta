@@ -3,7 +3,14 @@ guid: caca48f440b2d3b41b2c9d5dc5ed757f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - DuckModelReference: {instanceID: 0}
+  - reference_boardMarker1: {instanceID: 0}
+  - reference_boardMarker1Label: {instanceID: 0}
+  - reference_boardMarker2Label: {instanceID: 0}
+  - reference_boardMarker3Label: {instanceID: 0}
+  - reference_boardMarker4Label: {instanceID: 0}
+  - reference_boardMarker5Label: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

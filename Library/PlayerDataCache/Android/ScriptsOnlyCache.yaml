@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - boardMarker3
     - boardMarker4
     - boardMarker5
+    - boardMarkerPopupEnter_MushroomMeadows
     - setCameraActive_boardTag1
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -56,7 +57,6 @@ ScriptsOnlyBuild:
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.Graphing.GraphObject
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
-    - UnityEditor.ShaderGraph.SubGraphAsset
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -78,6 +78,29 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
+    Assets/Scenes/MushroomMeadows.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/mainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -97,6 +120,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -106,89 +131,93 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1816}
-    - Class: 114
-      Script: {instanceID: 1818}
-    - Class: 114
       Script: {instanceID: 1820}
     - Class: 114
       Script: {instanceID: 1822}
     - Class: 114
-      Script: {instanceID: 1828}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 2004}
+      Script: {instanceID: 1826}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 1832}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 2394}
     - Class: 114
-      Script: {instanceID: 3718}
+      Script: {instanceID: 2732}
     - Class: 114
-      Script: {instanceID: 3878}
+      Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 3904}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3974}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 3802}
     - Class: 114
-      Script: {instanceID: 4284}
+      Script: {instanceID: 3882}
     - Class: 114
-      Script: {instanceID: 4684}
+      Script: {instanceID: 3908}
     - Class: 114
-      Script: {instanceID: 4832}
+      Script: {instanceID: 3978}
     - Class: 114
-      Script: {instanceID: 5232}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 5826}
+      Script: {instanceID: 4288}
     - Class: 114
-      Script: {instanceID: 6160}
+      Script: {instanceID: 4688}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 6260}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 6496}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 6498}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 6522}
+      Script: {instanceID: 6186}
     - Class: 114
-      Script: {instanceID: 6812}
+      Script: {instanceID: 6264}
     - Class: 114
-      Script: {instanceID: 6958}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 7116}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 7214}
+      Script: {instanceID: 6526}
     - Class: 114
-      Script: {instanceID: 7222}
+      Script: {instanceID: 6816}
     - Class: 114
-      Script: {instanceID: 7362}
+      Script: {instanceID: 6962}
     - Class: 114
-      Script: {instanceID: 7414}
+      Script: {instanceID: 7120}
     - Class: 114
-      Script: {instanceID: 7468}
+      Script: {instanceID: 7218}
     - Class: 114
-      Script: {instanceID: 7558}
+      Script: {instanceID: 7226}
     - Class: 114
-      Script: {instanceID: 7574}
+      Script: {instanceID: 7366}
     - Class: 114
-      Script: {instanceID: 7692}
+      Script: {instanceID: 7418}
     - Class: 114
-      Script: {instanceID: 7856}
+      Script: {instanceID: 7472}
     - Class: 114
-      Script: {instanceID: 7986}
+      Script: {instanceID: 7562}
     - Class: 114
-      Script: {instanceID: 8048}
+      Script: {instanceID: 7578}
     - Class: 114
-      Script: {instanceID: 8836}
+      Script: {instanceID: 7696}
     - Class: 114
-      Script: {instanceID: 9204}
+      Script: {instanceID: 7860}
     - Class: 114
-      Script: {instanceID: 9520}
+      Script: {instanceID: 7990}
+    - Class: 114
+      Script: {instanceID: 8052}
+    - Class: 114
+      Script: {instanceID: 8840}
+    - Class: 114
+      Script: {instanceID: 9208}
+    - Class: 114
+      Script: {instanceID: 9524}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -236,8 +265,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 86
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -249,45 +276,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1820}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 1822}
+      Script: {instanceID: 1826}
     - Class: 114
-      Script: {instanceID: 1978}
+      Script: {instanceID: 1982}
     - Class: 114
-      Script: {instanceID: 2390}
+      Script: {instanceID: 2394}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 3718}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 3798}
+      Script: {instanceID: 3802}
     - Class: 114
-      Script: {instanceID: 3978}
+      Script: {instanceID: 3982}
     - Class: 114
-      Script: {instanceID: 4002}
+      Script: {instanceID: 4006}
     - Class: 114
-      Script: {instanceID: 4688}
+      Script: {instanceID: 4692}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 4818}
     - Class: 114
-      Script: {instanceID: 5142}
+      Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 5826}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 6958}
+      Script: {instanceID: 6962}
     - Class: 114
-      Script: {instanceID: 7558}
+      Script: {instanceID: 7562}
     - Class: 114
-      Script: {instanceID: 8828}
+      Script: {instanceID: 8832}
     - Class: 114
-      Script: {instanceID: 9580}
+      Script: {instanceID: 9584}
     - Class: 114
-      Script: {instanceID: 9668}
+      Script: {instanceID: 9672}
+    - Class: 114
+      Script: {instanceID: 24940}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -847,7 +876,7 @@ ScriptsOnlyBuild:
     className: ColorAdjustments
   - hash:
       serializedVersion: 2
-      Hash: 96787ded092bdc797f336cb5a3f9add4
+      Hash: a3fcbc1c5dbba37b73a719db2689b8c3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker2
@@ -1099,7 +1128,7 @@ ScriptsOnlyBuild:
     className: Exposure
   - hash:
       serializedVersion: 2
-      Hash: fbed974483df859712dde34088bbce13
+      Hash: a27b02f6407c90a513128c8f04400ec1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker4
@@ -1645,7 +1674,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: 2daf97488a6f27d992c77d709e1b2a39
+      Hash: a13bb7e05ac2233b13782df2134d641f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker3
@@ -1753,7 +1782,7 @@ ScriptsOnlyBuild:
     className: ShadowsMidtonesHighlights
   - hash:
       serializedVersion: 2
-      Hash: 1c5a2ad065b2b860387f133efde2c31e
+      Hash: 0dc60ad90a6bcb6ce100d602d184f9e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker5
@@ -1765,7 +1794,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 9d07c0385bc36b4713da02762e3eb711
+      Hash: b509d087336fabb44cdbdcc25f650d5b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boardMarker1
@@ -1799,8 +1828,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXRaycastBinder
+  - hash:
+      serializedVersion: 2
+      Hash: 26e2070ec6551106f77a25d6920cf598
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: boardMarkerPopupEnter_MushroomMeadows
   platform: 13
   scenePathNames:
   - Assets/Scenes/mainMenu.unity
   - Assets/Scenes/overworld_season1.unity
+  - Assets/Scenes/MushroomMeadows.unity
   playerPath: //DESKTOP-VMA282N/NetworkO/Duck Duck Moose/apk_builds/DuckDuckMoose.apk

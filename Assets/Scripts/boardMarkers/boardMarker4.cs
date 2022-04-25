@@ -17,6 +17,8 @@ public class boardMarker4 : MonoBehaviour
     public GameObject reference_boardMarker3Label;
     public GameObject reference_boardMarker4Label;
     public GameObject reference_boardMarker5Label;
+    public GameObject reference_ExitLevel_MushroomMeadows;
+
 
     public Vector3 duckPosition;
 
@@ -52,6 +54,8 @@ public class boardMarker4 : MonoBehaviour
             reference_boardMarker3Label.SetActive(false);
             reference_boardMarker4Label.SetActive(true);
             reference_boardMarker5Label.SetActive(false);
+
+            reference_ExitLevel_MushroomMeadows.SetActive(false);
 
             DuckModelReference.transform.position = reference_boardMarker4.transform.position;
         }
